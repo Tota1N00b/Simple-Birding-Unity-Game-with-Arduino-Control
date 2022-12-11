@@ -1,0 +1,684 @@
+Unity Editor version:    2021.3.15f1 (e8e88683f834)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.0 (Build 22A380)
+Darwin version:          22.1.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        32768 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/roy/Desktop/Fall22/New Arcade/birding test/Birding test
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51996
+Successfully changed project path to: /Users/roy/Desktop/Fall22/New Arcade/birding test/Birding test
+/Users/roy/Desktop/Fall22/New Arcade/birding test/Birding test
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [140704297047232] Host "[IP] 192.168.1.152 [Port] 0 [Flags] 2 [Guid] 3582983501 [EditorId] 3582983501 [Version] 1048832 [Id] OSXEditor(0,Roys-MBP) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [140704297047232] Host "[IP] 192.168.1.152 [Port] 0 [Flags] 2 [Guid] 3582983501 [EditorId] 3582983501 [Version] 1048832 [Id] OSXEditor(0,Roys-MBP) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 86.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.15f1 (e8e88683f834)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/roy/Desktop/Fall22/New Arcade/birding test/Birding test/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: AMD Radeon Pro 5500M (high power)
+Metal devices available: 2
+0: AMD Radeon Pro 5500M (high power)
+1: Intel(R) UHD Graphics 630 (low power)
+Using device AMD Radeon Pro 5500M (high power)
+Initializing Metal device caps: AMD Radeon Pro 5500M
+Initialize mono
+Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56539
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.001156 seconds.
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+2022-12-10 23:55:30.643 Unity[4539:99905] [XcodeApplications] Expected com.apple.dt.Xcode CFBundleIdentifier but found com.microsoft.VSCode in /Applications/Visual Studio Code.app/Contents/Info.plist
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 86.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.784 seconds
+Domain Reload Profiling:
+	ReloadAssembly (784ms)
+		BeginReloadAssembly (65ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (601ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (121ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (379ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (108ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (87ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (140ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002756 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/roy/Desktop/Fall22/New Arcade/birding test/Birding test/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/roy/Desktop/Fall22/New Arcade/birding test/Birding test/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+2022-12-10 23:55:32.291 Unity[4539:99905] [XcodeApplications] Expected com.apple.dt.Xcode CFBundleIdentifier but found com.microsoft.VSCode in /Applications/Visual Studio Code.app/Contents/Info.plist
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.407 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1408ms)
+		BeginReloadAssembly (99ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (1175ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (392ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (574ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (429ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3500 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (1.3 MB). Loaded Objects now: 3946.
+Memory consumption went from 95.0 MB to 93.6 MB.
+Total: 4.378343 ms (FindLiveObjects: 0.281031 ms CreateObjectMapping: 0.193532 ms MarkObjects: 3.547774 ms  DeleteObjects: 0.355275 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 7337.126866 seconds.
+  path: Assets/test.png
+  artifactKey: Guid(5bdb51f224d004177b9aca83ea5c97e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/test.png using Guid(5bdb51f224d004177b9aca83ea5c97e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8361865bf58fc5c2893fa8738df2c07') in 0.427371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.806566 seconds.
+  path: Assets/GyroCamControl.cs
+  artifactKey: Guid(cd784d5a32feb4a6689d8f3b3be44b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GyroCamControl.cs using Guid(cd784d5a32feb4a6689d8f3b3be44b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'def7b146d386880644079ba0ba8eeb1a') in 0.211796 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004358 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/roy/Desktop/Fall22/New Arcade/birding test/Birding test/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/roy/Desktop/Fall22/New Arcade/birding test/Birding test/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+2022-12-10 23:57:25.650 Unity[4539:99905] [XcodeApplications] Expected com.apple.dt.Xcode CFBundleIdentifier but found com.microsoft.VSCode in /Applications/Visual Studio Code.app/Contents/Info.plist
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.335 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1336ms)
+		BeginReloadAssembly (143ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (1077ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (359ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (512ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (39ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (378ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3469 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (1.3 MB). Loaded Objects now: 3957.
+Memory consumption went from 252.3 MB to 251.0 MB.
+Total: 4.681273 ms (FindLiveObjects: 0.282429 ms CreateObjectMapping: 0.312017 ms MarkObjects: 3.786379 ms  DeleteObjects: 0.299272 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003571 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/roy/Desktop/Fall22/New Arcade/birding test/Birding test/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/roy/Desktop/Fall22/New Arcade/birding test/Birding test/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
+2022-12-10 23:57:32.647 Unity[4539:99905] [XcodeApplications] Expected com.apple.dt.Xcode CFBundleIdentifier but found com.microsoft.VSCode in /Applications/Visual Studio Code.app/Contents/Info.plist
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.306 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1307ms)
+		BeginReloadAssembly (116ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (1092ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (297ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (612ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (490ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3469 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (1.3 MB). Loaded Objects now: 3960.
+Memory consumption went from 257.5 MB to 256.2 MB.
+Total: 4.410051 ms (FindLiveObjects: 0.284406 ms CreateObjectMapping: 0.211415 ms MarkObjects: 3.632486 ms  DeleteObjects: 0.280928 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 207.851108 seconds.
+  path: Assets/Birds/Bird 8.mat
+  artifactKey: Guid(bbb5d67ef25d74920a9bd74800e66071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Birds/Bird 8.mat using Guid(bbb5d67ef25d74920a9bd74800e66071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcd333fb36e1876fad3d0991c68868ed') in 0.230403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002143 seconds.
+  path: Assets/Birds/bryan-hanson-nCtcu1s2BOs-unsplash.png
+  artifactKey: Guid(94407748904974385868a411a76d9290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Birds/bryan-hanson-nCtcu1s2BOs-unsplash.png using Guid(94407748904974385868a411a76d9290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f3eda909e0397b8da9893ed97d354ad') in 0.024138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001560 seconds.
+  path: Assets/Birds/Bird 10.mat
+  artifactKey: Guid(b68f026a2edb34428baa80c399adadf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Birds/Bird 10.mat using Guid(b68f026a2edb34428baa80c399adadf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d3e477c551d235b218b0c9b3ee80a32') in 0.020673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Birds/Bird 12.mat
+  artifactKey: Guid(3a51457b853c4431baba8cec8bd1f898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Birds/Bird 12.mat using Guid(3a51457b853c4431baba8cec8bd1f898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccf89f687b5aafbaeb9956945b0ff98a') in 0.020319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Birds/Bird 5.mat
+  artifactKey: Guid(5bf299406518946dd81374026de5b52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Birds/Bird 5.mat using Guid(5bf299406518946dd81374026de5b52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'debe2a9e72ada240f00e025a5cca16ec') in 0.015132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Birds/Bird1 1.mat
+  artifactKey: Guid(9edc357dae4a142faa79a46793cc8e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Birds/Bird1 1.mat using Guid(9edc357dae4a142faa79a46793cc8e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06af1aea76498428d6a18332600a8504') in 0.024846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/forest layers
+  artifactKey: Guid(7305b9b3a564f44979ac5da83ca5b8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest layers using Guid(7305b9b3a564f44979ac5da83ca5b8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c87c949a88ffdeb29862d906237164ba') in 0.001897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Birds/Bird 9.mat
+  artifactKey: Guid(c24ec0f7ce57844c6a8d2ed7a2eb4f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Birds/Bird 9.mat using Guid(c24ec0f7ce57844c6a8d2ed7a2eb4f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfcf6e9855a6512db837203069179245') in 0.020770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/forest layers/sky.png
+  artifactKey: Guid(a00aa9fa9a53b42fead2e902cd1cfa92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest layers/sky.png using Guid(a00aa9fa9a53b42fead2e902cd1cfa92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '262417bc0827af3547fe6f48117b80d2') in 0.435485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8193726cff86800c54781cdc6d54904') in 0.001703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Birds/Bird 13.mat
+  artifactKey: Guid(49129b196b22d4e49b9cc985cd13a62d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Birds/Bird 13.mat using Guid(49129b196b22d4e49b9cc985cd13a62d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e29136d8ac39afcd87b9c7602ad68996') in 0.016779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Birds/gary-bendig-WPmPsdX2ySw-unsplash.png
+  artifactKey: Guid(95e456f03491449d29f37d9cd459d036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Birds/gary-bendig-WPmPsdX2ySw-unsplash.png using Guid(95e456f03491449d29f37d9cd459d036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06385135b849a60a39d1200d18ec9ee6') in 0.010785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/TakePhoto.cs
+  artifactKey: Guid(6593c404491094b9b800f6217a6ab896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TakePhoto.cs using Guid(6593c404491094b9b800f6217a6ab896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '705b0eee0da2b34d4ae54d6130affb79') in 0.002584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/FocusControl.cs
+  artifactKey: Guid(8dcce1480fac1437c82e0dc5b3c52280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FocusControl.cs using Guid(8dcce1480fac1437c82e0dc5b3c52280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df59f2a4e3835ac5e537babcd0be371d') in 0.002061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004158 seconds.
+  path: Assets/forest layers/Materials/Tree 1.mat
+  artifactKey: Guid(9feb1aed48f894bcfa69375c212997df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest layers/Materials/Tree 1.mat using Guid(9feb1aed48f894bcfa69375c212997df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3acd305183e179cb4d0036c67ec02ed') in 0.317746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/CamMove.cs
+  artifactKey: Guid(b4b28bfd543984784a91051cb7e77f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CamMove.cs using Guid(b4b28bfd543984784a91051cb7e77f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a14cd160e69e8a3674e46b235c210b6') in 0.002167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Birds/jan-meeus-7LsuYqkvIUM-unsplash.png
+  artifactKey: Guid(512ef603ff47f459db42057553a680ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Birds/jan-meeus-7LsuYqkvIUM-unsplash.png using Guid(512ef603ff47f459db42057553a680ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d79074ce8443862f6d1603224a66870') in 0.013455 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/forest layers/Tree 1.png
+  artifactKey: Guid(a398ef5c29d1f456896d6cda895e1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest layers/Tree 1.png using Guid(a398ef5c29d1f456896d6cda895e1493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97d643c429bb8dffa289345c12093e8c') in 0.469456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/forest layers/Materials/Tree 5.mat
+  artifactKey: Guid(1b8920a0cf6044d76b6d1be4bb0f8fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest layers/Materials/Tree 5.mat using Guid(1b8920a0cf6044d76b6d1be4bb0f8fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37ff5633b301084efbc13d89c9cdfb5f') in 0.022277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Scenes/SampleScene_Profiles
+  artifactKey: Guid(a664be31e8d174230a7c1d2f44910b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene_Profiles using Guid(a664be31e8d174230a7c1d2f44910b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f35af29c2da7895544b6960c3878eb41') in 0.001835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Sounds/Bird.wav
+  artifactKey: Guid(ba77c6748c7aa444cad81062b890c76d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Bird.wav using Guid(ba77c6748c7aa444cad81062b890c76d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a8b3d0b6357016b7ccc7b0f59856e66') in 0.748940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Birds/zdenek-machacek-cfIcTiopin4-unsplash.png
+  artifactKey: Guid(a7064910d7b3e406a84fab0492cb070a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Birds/zdenek-machacek-cfIcTiopin4-unsplash.png using Guid(a7064910d7b3e406a84fab0492cb070a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '265526cceacde11eb9b9cd40da19c237') in 0.016240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Sounds/BellCorrect.wav
+  artifactKey: Guid(4ea5cc2e6ed6b49849d8aef620c0d496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/BellCorrect.wav using Guid(4ea5cc2e6ed6b49849d8aef620c0d496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d4fa121ad91d5dc738ef53532641ab8') in 0.011058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/forest layers/Layer 1.png
+  artifactKey: Guid(89eb9baca0fc54a54a14b816d6dfdf63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest layers/Layer 1.png using Guid(89eb9baca0fc54a54a14b816d6dfdf63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e4c57367a94ac4f7e6d650654cfac1d') in 0.105770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/forest layers/Tree 3.png
+  artifactKey: Guid(63e7ead11b89840d18926f00b1fddebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest layers/Tree 3.png using Guid(63e7ead11b89840d18926f00b1fddebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c277be2afb94c13c157663441de52ab8') in 0.166333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Birds/Bird 6.mat
+  artifactKey: Guid(39dbc8ec412a643efb2519761e08aa71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Birds/Bird 6.mat using Guid(39dbc8ec412a643efb2519761e08aa71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '982a5da884bd13c128ac539b043d8e86') in 0.014247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/forest layers/Tree 4.png
+  artifactKey: Guid(94a8a5f34ee9d420fb7a400f7acd5dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest layers/Tree 4.png using Guid(94a8a5f34ee9d420fb7a400f7acd5dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a577055a9c6a65bb2af952cd00f8c8fe') in 0.164613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Birds.cs
+  artifactKey: Guid(abd01106865c34f8483e7b273ec5579f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Birds.cs using Guid(abd01106865c34f8483e7b273ec5579f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a91973647cbd481ead151fcd5c49dfe4') in 0.002010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/forest layers/Tree 2.png
+  artifactKey: Guid(80ed796d0b0c14f3e86a41e9d8948a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest layers/Tree 2.png using Guid(80ed796d0b0c14f3e86a41e9d8948a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3220267f4e3385899871f90490440f90') in 0.342531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Sounds/CollectItem 1.wav
+  artifactKey: Guid(c1897fd3debdb4ddc85d0837b8d75105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/CollectItem 1.wav using Guid(c1897fd3debdb4ddc85d0837b8d75105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0f50ffcc889b4fb0db11694882a4470') in 0.011267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Scenes/2D Scene.unity
+  artifactKey: Guid(7e395592247504d3495f0a0b07d24ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/2D Scene.unity using Guid(7e395592247504d3495f0a0b07d24ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a623437611bdacf2986bdcbf5c674f63') in 0.001506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Birds/taif-rahaman-10Uq28VRbbA-unsplash.png
+  artifactKey: Guid(6445d99cb140e497e8eb0ca4193cb40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Birds/taif-rahaman-10Uq28VRbbA-unsplash.png using Guid(6445d99cb140e497e8eb0ca4193cb40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10f14ddbb135a04ac7345727fdcb89c0') in 0.016017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Sounds/Correct2.wav
+  artifactKey: Guid(e3e93a865274a4f71a1afca56c193994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds/Correct2.wav using Guid(e3e93a865274a4f71a1afca56c193994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab58911fbc8e9f4aed9bd11102aa067b') in 0.013291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Birds/Bird 11.mat
+  artifactKey: Guid(b4a744b57b1bf4d0daf9fe54cf064791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Birds/Bird 11.mat using Guid(b4a744b57b1bf4d0daf9fe54cf064791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daf205e5287e8b66e10b1426f017efb1') in 0.014542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Birds/geronimo-giqueaux-w2WUqRvTmtg-unsplash.png
+  artifactKey: Guid(3835ad718652349bc8795f2a8e7e8ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Birds/geronimo-giqueaux-w2WUqRvTmtg-unsplash.png using Guid(3835ad718652349bc8795f2a8e7e8ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '558133921cb3ad0b1dc71b6575be3293') in 0.011818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/forest layers/Materials/Tree 3.mat
+  artifactKey: Guid(c73f6096c42394b8cb75dd99ababd78b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest layers/Materials/Tree 3.mat using Guid(c73f6096c42394b8cb75dd99ababd78b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f7b953c81d9577f5c6ab84e3d2a26a0') in 0.025760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Birds/vincent-van-zalinge-vUNQaTtZeOo-unsplash.png
+  artifactKey: Guid(f9f5e6a7fc999479f9d730aef2ff8850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Birds/vincent-van-zalinge-vUNQaTtZeOo-unsplash.png using Guid(f9f5e6a7fc999479f9d730aef2ff8850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b34a76ea9d4fb5328ec4b1c26aee7de9') in 0.013306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Birds/Bird 14.mat
+  artifactKey: Guid(55335810a8c3748b785f202ce3cc73ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Birds/Bird 14.mat using Guid(55335810a8c3748b785f202ce3cc73ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b99702ad71a190bf671dd52b041804a5') in 0.017451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Birds/zdenek-machacek-Vu4-Il_2Kdo-unsplash.png
+  artifactKey: Guid(dc4214761408c427ab2fa9cb35abf310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Birds/zdenek-machacek-Vu4-Il_2Kdo-unsplash.png using Guid(dc4214761408c427ab2fa9cb35abf310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b34cb67249484aaa57af9ff3f3fe8208') in 0.011528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Birds/Bird 4.mat
+  artifactKey: Guid(5042286320e0947d9839e4e61d1dd16e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Birds/Bird 4.mat using Guid(5042286320e0947d9839e4e61d1dd16e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c37cb7827572a6c522ae1cd2dad454a6') in 0.016597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/forest layers/Layer 2.png
+  artifactKey: Guid(03eb120a38bf54d08ac920c9aa5697a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest layers/Layer 2.png using Guid(03eb120a38bf54d08ac920c9aa5697a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93f75ebe5314163a5dff51f8c5037baf') in 0.221533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002168 seconds.
+  path: Assets/Sounds
+  artifactKey: Guid(c39cb8e6685dd4211ab07a5e9b5ef67b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sounds using Guid(c39cb8e6685dd4211ab07a5e9b5ef67b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac26dfee3c53dc9abefd55ec863921e5') in 0.001176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001304 seconds.
+  path: Assets/forest layers/Materials/Tree 4.mat
+  artifactKey: Guid(90b166428d64e4f338f0ee5efe601c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest layers/Materials/Tree 4.mat using Guid(90b166428d64e4f338f0ee5efe601c03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16d4d025d842db5c19469cbb05031f21') in 0.025802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Birds/Bird 3.mat
+  artifactKey: Guid(48aaef6e0edd141c9887ee1589feaa14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Birds/Bird 3.mat using Guid(48aaef6e0edd141c9887ee1589feaa14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e886f9968c9e8629d659b7e24b28b63') in 0.016624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Birds
+  artifactKey: Guid(3f43135bc9fd7480c8f2845e3ef34e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Birds using Guid(3f43135bc9fd7480c8f2845e3ef34e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4be383e1faea195b4b0a18857914c509') in 0.001138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/forest layers/Materials/sky.mat
+  artifactKey: Guid(f0dd513046f6140dab8e2e9f2c021a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest layers/Materials/sky.mat using Guid(f0dd513046f6140dab8e2e9f2c021a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd912248e0f91b8ea748976691680a77a') in 0.045359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/forest layers/Materials/Tree 2.mat
+  artifactKey: Guid(68896ac6743ad4b8eb1bb333ec61ab4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest layers/Materials/Tree 2.mat using Guid(68896ac6743ad4b8eb1bb333ec61ab4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31144f145611c162cc95bcbe1aa2b0ce') in 0.039523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Birds/david-benes--HnqEWeIBMo-unsplash.png
+  artifactKey: Guid(891247c8d2bf847c5b02865f972e125b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Birds/david-benes--HnqEWeIBMo-unsplash.png using Guid(891247c8d2bf847c5b02865f972e125b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b72ff03389f168dd47267f84c314138') in 0.011234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/forest layers/Materials/Layer 1.mat
+  artifactKey: Guid(dff78d595d5af45c0a18e22582b48f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest layers/Materials/Layer 1.mat using Guid(dff78d595d5af45c0a18e22582b48f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7737de87289b758a11554a9ab5997ecd') in 0.015341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Birds/alejandro-contreras-wTPp323zAEw-unsplash.png
+  artifactKey: Guid(adcc62ca1cb2949ddac62fd1cbdfd09a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Birds/alejandro-contreras-wTPp323zAEw-unsplash.png using Guid(adcc62ca1cb2949ddac62fd1cbdfd09a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5144d42e50d865a7cc42d6a19b016b83') in 0.016961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/forest layers/Tree 5.png
+  artifactKey: Guid(728627566b3aa466380e353cc23a6ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest layers/Tree 5.png using Guid(728627566b3aa466380e353cc23a6ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbbe72cf06a23efe945caf773ad996f4') in 0.132933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Birds/Bird 2.mat
+  artifactKey: Guid(a05f7517a3716446bb51f0531feebbc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Birds/Bird 2.mat using Guid(a05f7517a3716446bb51f0531feebbc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8612b15841398925b0a3f0ede10773e0') in 0.013597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/PublicVars.cs
+  artifactKey: Guid(85d3c97caeb0e4393b2dbfc16a94b50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PublicVars.cs using Guid(85d3c97caeb0e4393b2dbfc16a94b50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8233ee8937a8b138fe58fa4491dcf961') in 0.001305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Scenes/SampleScene_Profiles/MainCamera Profile.asset
+  artifactKey: Guid(a35e82158649b46cb94216d7d1adc841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene_Profiles/MainCamera Profile.asset using Guid(a35e82158649b46cb94216d7d1adc841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddadb5445cea4083ed52f90a4c098584') in 0.118669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Birds/Bird 7.mat
+  artifactKey: Guid(3eb164ee4f5564b1a8695d887d56a7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Birds/Bird 7.mat using Guid(3eb164ee4f5564b1a8695d887d56a7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4511cd83d6f6a848654372b704e04ec6') in 0.017192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Birds/jacques-le-henaff-ic-13C3QhAI-unsplash.png
+  artifactKey: Guid(0fcdf3a8e66b44ce89af6977dbee0ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Birds/jacques-le-henaff-ic-13C3QhAI-unsplash.png using Guid(0fcdf3a8e66b44ce89af6977dbee0ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48292bb5fece6b8d1bf941130fbf0249') in 0.021110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Birds/zdenek-machacek-OlKkCmToXEs-unsplash.png
+  artifactKey: Guid(942b65497417244b69106f55e91ec8fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Birds/zdenek-machacek-OlKkCmToXEs-unsplash.png using Guid(942b65497417244b69106f55e91ec8fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c236059a6f760ebc1d9c5d00b6f5701') in 0.009778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Birds/brian-asare-91NYyecWlHA-unsplash.png
+  artifactKey: Guid(811e74e4b269e4cbc8f9a38e706ac9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Birds/brian-asare-91NYyecWlHA-unsplash.png using Guid(811e74e4b269e4cbc8f9a38e706ac9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fd1649debed9743a7395510b9e74aa6') in 0.009137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/forest layers/Materials/Layer 2.mat
+  artifactKey: Guid(38584029cbec34a0e8262cc7dd08cb13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest layers/Materials/Layer 2.mat using Guid(38584029cbec34a0e8262cc7dd08cb13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9e964010be355b7570aa5bd48bb01a1') in 0.025604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/ScaleControl.cs
+  artifactKey: Guid(b27c10e016f86426c9973db942917241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScaleControl.cs using Guid(b27c10e016f86426c9973db942917241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a05377562b27bd11f31ec5f2201ad7f1') in 0.002094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Birds/philipp-pilz-ID48ekBTlDo-unsplash.png
+  artifactKey: Guid(8f20d794b37d24463a6467027e11fc78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Birds/philipp-pilz-ID48ekBTlDo-unsplash.png using Guid(8f20d794b37d24463a6467027e11fc78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ed672bb00c50fa023a6ad9f1ba1594d') in 0.052843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022127 seconds.
+  path: Assets/forest layers/Materials
+  artifactKey: Guid(d354bfebbbdd14473a0a087409a84f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest layers/Materials using Guid(d354bfebbbdd14473a0a087409a84f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75c0f6f5f2ca8d4aba959549f45f8139') in 0.019764 seconds 
